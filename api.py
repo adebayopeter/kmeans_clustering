@@ -35,11 +35,11 @@ def predict_cluster(data: CustomerData):
 
     # Map cluster numbers to letters
     cluster_mapping = {
-        0: "Cluster A",
-        1: "Cluster B",
-        2: "Cluster C",
-        3: "Cluster D",
-        4: "Cluster E"
+        0: "Prudent Spender",
+        1: "Generous Spender",
+        2: "Extravagant Spender",
+        3: "Wise Spender",
+        4: "Loose Spender"
     }
 
     cluster_label = cluster_mapping.get(cluster, "Unknown Cluster")
